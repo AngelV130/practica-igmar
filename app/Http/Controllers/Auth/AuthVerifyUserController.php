@@ -50,7 +50,7 @@ class AuthVerifyUserController extends Controller
                 ['id' => $user->id]
             );
             if($user && $user->code == null){
-                MailJob::dispatch(new VerifyCodeAdmin($user),$user)->onQueue('high');
+                MailJob::dispatch(new VerifyCodeAdmin($user),$user)->onQueue('default');
             }
             return Inertia::render('Code',[
                 'singurl' => $urlSigned,

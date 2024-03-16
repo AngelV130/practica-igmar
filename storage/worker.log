@@ -1,0 +1,3386 @@
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+Could not open input file: /home/forge/app.com/artisan
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   UnexpectedValueException 
+
+  The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: The stream or file "/home/jose/web/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: could not find driver
+Context: {"exception":{"errorInfo":null}}
+Context: {"exception":{}}
+
+  at /home/jose/web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:137
+    133▕             }
+    134▕             if (!is_resource($stream)) {
+    135▕                 $this->stream = null;
+    136▕ 
+  ➜ 137▕                 throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $url) . Utils::getRecordMessageForException($record));
+    138▕             }
+    139▕             stream_set_chunk_size($stream, $this->streamChunkSize);
+    140▕             $this->stream = $stream;
+    141▕         }
+
+      [2m+11 vendor frames [22m
+
+  12  /home/jose/web/artisan:35
+      Illuminate\Foundation\Console\Kernel::handle()
+
+  2024-03-11 18:11:51 App\Jobs\MailJob ............................... RUNNING
+  2024-03-11 18:11:52 App\Jobs\MailJob ............................... 1s DONE
+  2024-03-11 18:14:44 App\Jobs\MailJob ............................... RUNNING
+  2024-03-11 18:14:44 App\Jobs\MailJob ......................... 416.71ms DONE
+  2024-03-11 18:40:25 App\Jobs\MailJob ............................... RUNNING
+  2024-03-11 18:40:26 App\Jobs\MailJob ............................... 1s DONE
+  2024-03-11 18:42:35 App\Jobs\MailJob ............................... RUNNING
+  2024-03-11 18:42:35 App\Jobs\MailJob ......................... 418.55ms DONE
+  2024-03-11 18:46:40 App\Jobs\MailJob ............................... RUNNING
+  2024-03-11 18:46:41 App\Jobs\MailJob ............................... 1s DONE
+  2024-03-11 18:47:14 App\Jobs\MailJob ............................... RUNNING
+  2024-03-11 18:47:15 App\Jobs\MailJob ......................... 669.40ms DONE
+  2024-03-16 03:14:37 App\Jobs\MailJob ............................... RUNNING
+  2024-03-16 03:14:38 App\Jobs\MailJob ............................... 1s DONE
+  2024-03-16 03:15:35 App\Jobs\MailJob ............................... RUNNING
+  2024-03-16 03:15:36 App\Jobs\MailJob ......................... 700.48ms DONE
